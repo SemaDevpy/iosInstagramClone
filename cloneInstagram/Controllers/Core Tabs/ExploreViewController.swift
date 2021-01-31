@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ExploreViewController.swift
 //  cloneInstagram
 //
 //  Created by Syimyk on 1/31/21.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ExploreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
 
 }
-
