@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="selectedImageTintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="rkH-4w-KnG" kind="relationship" relationship="viewControllers" id="iVX-Fh-Q7j"/>
@@ -33,7 +33,7 @@
         <scene sceneID="0Dx-XG-bbq">
             <objects>
                 <navigationController id="rkH-4w-KnG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="caU-mT-cIa"/>
+                    <tabBarItem key="tabBarItem" title="" image="house.fill" catalog="system" id="caU-mT-cIa"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="F10-g9-QNC">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -66,7 +66,7 @@
         <scene sceneID="pW5-xD-j70">
             <objects>
                 <navigationController id="IgD-j7-ljk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="ret-xH-3on"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.fill" catalog="system" id="ret-xH-3on"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DPI-tw-8EQ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -83,7 +83,7 @@
         <scene sceneID="0S9-Fl-7ZJ">
             <objects>
                 <navigationController id="in2-8y-pZG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bell" catalog="system" id="L5c-yQ-BAB"/>
+                    <tabBarItem key="tabBarItem" title="" image="heart.fill" catalog="system" id="L5c-yQ-BAB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wke-5I-nwT">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -117,7 +117,7 @@
         <scene sceneID="v5E-fj-S4l">
             <objects>
                 <navigationController id="QZK-Hb-nRG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="globe" catalog="system" id="Vyo-gJ-R4a"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="Vyo-gJ-R4a"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="84Q-LJ-iig">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -196,10 +196,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bell" catalog="system" width="128" height="124"/>
-        <image name="globe" catalog="system" width="128" height="121"/>
-        <image name="house" catalog="system" width="128" height="110"/>
-        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="plus" catalog="system" width="128" height="113"/>
     </resources>
 </document>
